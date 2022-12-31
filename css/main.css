@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background-color: hsl(204deg, 43%, 93%);
+}
+
+main {
+  padding: 70px 30px;
+}
+
+.card {
+  box-shadow: 0px 2px 15px rgba(51, 51, 51, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card .section {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .top-section {
+  height: 260px;
+  background-color: #fff;
+}
+.card .top-section h1 {
+  color: hsl(179deg, 62%, 43%);
+  font-weight: 700;
+}
+.card .top-section h2 {
+  color: hsl(71deg, 73%, 54%);
+  font-weight: 700;
+}
+.card .top-section p {
+  color: hsl(218deg, 22%, 67%);
+  font-size: 1.4rem;
+  line-height: 25px;
+}
+.card .left-section {
+  height: 220px;
+  background-color: hsl(179deg, 62%, 43%);
+}
+.card .left-section h2 {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.card .left-section h3 {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 3rem;
+}
+.card .left-section h3 span {
+  margin-left: 10px;
+  color: hsl(182deg, 62%, 65%);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.card .left-section p {
+  margin-top: 5px;
+  color: hsl(204deg, 43%, 93%);
+  font-size: 1.6rem;
+}
+.card .left-section button {
+  padding: 16px 0px;
+  color: #fff;
+  background-color: hsl(71deg, 73%, 54%);
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 15px rgba(51, 51, 51, 0.2);
+}
+.card .right-section {
+  height: 220px;
+  background-color: hsl(179deg, 47%, 52%);
+}
+.card .right-section h2 {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.card .right-section ul {
+  color: hsl(183deg, 78%, 83%);
+  font-size: 1.4rem;
+  list-style: none;
+  line-height: 18px;
+}
+
+@media (min-width: 576px) {
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .card .top-section {
+    padding: 30px;
+    height: 200px;
+  }
+  .card .bottom {
+    padding: 30px;
+    width: 250px;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 640px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .card .top-section {
+    padding: 35px;
+    height: 200px;
+  }
+  .card .top-section h1 {
+    font-size: 2.3rem;
+  }
+  .card .top-section h2 {
+    font-size: 1.7rem;
+  }
+  .card .top-section p {
+    font-size: 1.6rem;
+  }
+  .card .bottom {
+    padding: 35px;
+    width: 320px;
+    height: 250px;
+  }
+  .card .bottom h2 {
+    font-size: 1.7rem;
+  }
+  .card .bottom ul {
+    line-height: 20px;
+  }
+  .card .bottom button {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=main.css.map */
